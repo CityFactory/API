@@ -1,0 +1,83 @@
+body {
+    background-color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #f2f2f2; /* ubah warna teks menjadi putih */
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #444; /* ubah warna latar belakang container menjadi abu-abu lebih gelap */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* ubah bayangan menjadi lebih gelap */
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #f2f2f2; /* ubah warna judul menjadi putih */
+}
+
+label {
+    font-weight: bold;
+    color: #f2f2f2; /* ubah warna label menjadi putih */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #888; /* ubah warna border menjadi abu-abu lebih gelap */
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #555; /* ubah warna latar belakang input menjadi abu-abu lebih gelap */
+    color: #f2f2f2; /* ubah warna teks menjadi putih */
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #FF6F00;
+    color: #f2f2f2; /* ubah warna teks tombol menjadi putih */
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #FF8124;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+    color: #f2f2f2; /* ubah warna teks menjadi putih */
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #f2f2f2; /* ubah warna teks menjadi putih */
+}
+
+.signup-button {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}

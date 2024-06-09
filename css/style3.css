@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 100px auto;
+    background-color: #333;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+
+form {
+    text-align: center;
+}
+
+button, input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #0069d9;
+}
+
+a {
+    text-decoration: none; /* Menghapus garis bawah pada tautan */
+}
+
+a button {
+    background-color: orange; /* Mengubah warna latar belakang menjadi oranye */
+    color: white; /* Mengubah warna teks menjadi putih */
+    border: none; /* Menghapus garis pinggir pada tombol */
+    padding: 10px 20px; /* Memberi ruang bantalan pada tombol */
+    font-size: 16px; /* Ukuran font teks tombol */
+    border-radius: 5px; /* Membuat sudut tombol menjadi melengkung */
+    cursor: pointer; /* Mengubah ikon kursor menjadi tangan saat mengarahkan ke tombol */
+}
+
+a button:hover {
+    background-color: darkorange; /* Mengubah warna latar belakang saat tombol dihover menjadi oranye tua */
+}
+
+/* CSS untuk elemen <a> yang berisi tombol "Home" */
+a.button-home {
+    text-decoration: none; /* Menghapus garis bawah pada tautan */
+    background-color: #007bff; /* Mengubah warna latar belakang menjadi biru */
+    color: #fff; /* Mengubah warna teks menjadi putih */
+    border: none; /* Menghapus garis pinggir pada tombol */
+    padding: 10px 20px; /* Memberi ruang bantalan pada tombol */
+    font-size: 16px; /* Ukuran font teks tombol */
+    border-radius: 5px; /* Membuat sudut tombol menjadi melengkung */
+    cursor: pointer; /* Mengubah ikon kursor menjadi tangan saat mengarahkan ke tombol */
+}
+
+a.button-home:hover {
+    background-color: #0056b3; /* Mengubah warna latar belakang saat tombol dihover menjadi biru tua */
+}
+
